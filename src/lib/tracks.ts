@@ -15,7 +15,7 @@ export type Track = {
   duration?: number
 }
 
-/** Antepone la base del despliegue: en GitHub Pages la app cuelga de /a-rose-for-you/. */
+/** Antepone la base del despliegue: en GitHub Pages la app cuelga de /<repo>/. */
 const asset = (p: string) => `${import.meta.env.BASE_URL}${p}`
 
 /** Acento por defecto (nada sonando) y para los archivos que arrastre el usuario. */
