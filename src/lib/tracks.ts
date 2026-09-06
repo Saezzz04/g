@@ -55,6 +55,83 @@ export const tracks: Track[] = [
     src: asset("music/por-ti.m4a"),
     duration: 185,
   },
+  {
+    id: "si-estoy-contigo",
+    title: "SI ESTOY CONTIGO",
+    artist: "KINKY BWOY",
+    art: "🧡",
+    cover: asset("art/si-estoy-contigo.jpg"),
+    accent: "#ff7a2f", // naranja
+    youtubeId: "g05pXTEb2O0",
+    src: asset("music/si-estoy-contigo.m4a"),
+    duration: 164,
+  },
+  {
+    id: "con-los-dos-en-la-cabeza",
+    title: "Con Los Dos En La Cabeza",
+    artist: "Pedro Guerra, Cruzzi",
+    art: "💚",
+    cover: asset("art/con-los-dos-en-la-cabeza.jpg"),
+    accent: "#2fd6a8", // verde agua
+    youtubeId: "O9825iugYPM",
+    src: asset("music/con-los-dos-en-la-cabeza.m4a"),
+    duration: 234,
+  },
+  {
+    id: "pensando-en-ti",
+    title: "Pensando en Ti",
+    artist: "Nickzzy, Cano",
+    art: "🩵",
+    cover: asset("art/pensando-en-ti.jpg"),
+    accent: "#2fc4ff", // cian
+    youtubeId: "6kCtPdgodsQ",
+    src: asset("music/pensando-en-ti.m4a"),
+    duration: 183,
+  },
+  {
+    id: "mood-swings",
+    title: "MOOD SWINGS",
+    artist: "POP SMOKE ft. Lil Tjay",
+    art: "💛",
+    cover: asset("art/mood-swings.jpg"),
+    accent: "#e8c62f", // ambar
+    youtubeId: "YrlByJi9uKc",
+    src: asset("music/mood-swings.m4a"),
+    duration: 215,
+  },
+  {
+    id: "love-hardgz",
+    title: "LOVE",
+    artist: "HARD GZ",
+    art: "❤️",
+    cover: asset("art/love-hardgz.jpg"),
+    accent: "#ff2f2f", // rojo
+    youtubeId: "JKUgyvkEhMc",
+    src: asset("music/love-hardgz.m4a"),
+    duration: 209,
+  },
+  {
+    id: "alegria-de-vivir",
+    title: "Alegría de Vivir",
+    artist: "Ray Heredia",
+    art: "💛",
+    cover: asset("art/alegria-de-vivir.jpg"),
+    accent: "#9ad62f", // verde lima
+    youtubeId: "lTFt_5CjkYs",
+    src: asset("music/alegria-de-vivir.m4a"),
+    duration: 230,
+  },
+  {
+    id: "solo-pienso-en-ti",
+    title: "SOLO PIENSO EN TI",
+    artist: "DENOM ft. Camin, Cano, Fernando Costa",
+    art: "🤍",
+    cover: asset("art/solo-pienso-en-ti.jpg"),
+    accent: "#c9d6df", // gris perla
+    youtubeId: "VzUQy37cyBY",
+    src: asset("music/solo-pienso-en-ti.m4a"),
+    duration: 303,
+  },
 ]
 
 export function formatTime(s: number) {
