@@ -132,6 +132,17 @@ export const tracks: Track[] = [
     src: asset("music/solo-pienso-en-ti.m4a"),
     duration: 303,
   },
+  {
+    id: "si-tu-quieres",
+    title: "Si Tu Quieres",
+    artist: "Morad",
+    art: "💜",
+    cover: asset("art/si-tu-quieres.jpg"),
+    accent: "#e02fd6", // magenta
+    youtubeId: "CIMg6NVuUA8",
+    src: asset("music/si-tu-quieres.m4a"),
+    duration: 190,
+  },
 ]
 
 export function formatTime(s: number) {
