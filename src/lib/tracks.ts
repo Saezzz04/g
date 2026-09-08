@@ -143,6 +143,17 @@ export const tracks: Track[] = [
     src: asset("music/si-tu-quieres.m4a"),
     duration: 190,
   },
+  {
+    id: "siempre-preguntando",
+    title: "Siempre Preguntando",
+    artist: "DELLAFUENTE",
+    art: "💙",
+    cover: asset("art/siempre-preguntando.jpg"),
+    accent: "#2f9ed6", // azulejo
+    youtubeId: "BedjLNZbC7E",
+    src: asset("music/siempre-preguntando.m4a"),
+    duration: 169,
+  },
 ]
 
 export function formatTime(s: number) {
