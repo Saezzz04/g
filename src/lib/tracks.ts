@@ -154,6 +154,28 @@ export const tracks: Track[] = [
     src: asset("music/siempre-preguntando.m4a"),
     duration: 169,
   },
+  {
+    id: "sola",
+    title: "Sola",
+    artist: "DELAOSSA",
+    art: "🤎",
+    cover: asset("art/sola.jpg"),
+    accent: "#a8734a", // tierra
+    youtubeId: "Y5j9SbyGrNg",
+    src: asset("music/sola.m4a"),
+    duration: 243,
+  },
+  {
+    id: "el-patio",
+    title: "El Patio",
+    artist: "Pepe y Vizio, Delaossa",
+    art: "🤍",
+    cover: asset("art/el-patio.jpg"),
+    accent: "#d6b32f", // dorado
+    youtubeId: "OOec5Ci3LVQ",
+    src: asset("music/el-patio.m4a"),
+    duration: 235,
+  },
 ]
 
 export function formatTime(s: number) {
