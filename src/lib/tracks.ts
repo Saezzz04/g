@@ -176,6 +176,17 @@ export const tracks: Track[] = [
     src: asset("music/el-patio.m4a"),
     duration: 235,
   },
+  {
+    id: "bandido-remix",
+    title: "Bandido Remix",
+    artist: "Cyril Kamer, RVFV, Cano",
+    art: "🖤",
+    cover: asset("art/bandido-remix.jpg"),
+    accent: "#d62f5a", // carmín
+    youtubeId: "e8VHYp4Oojk",
+    src: asset("music/bandido-remix.m4a"),
+    duration: 236,
+  },
 ]
 
 export function formatTime(s: number) {
