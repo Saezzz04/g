@@ -98,9 +98,18 @@ export function Player({
   useEffect(() => onPlayingChange?.(playing), [playing, onPlayingChange])
   useEffect(() => onTrackChange?.(current), [current, onTrackChange])
 
-  // enlace compartido: intenta sonar ya; si el navegador bloquea el autoplay queda en pausa
+  // enlace compartido: intenta sonar solo al entrar
   useEffect(() => {
-    if (index >= 0) play(index)
+    if (index < 0) return
+    play(index)
+    // Chrome/Safari bloquean el audio sin gesto previo: el primer toque en cualquier
+    // parte de la página lo suelta, sin tener que buscar el botón de play.
+    const kick = () => {
+      if (audioRef.current?.paused) audioRef.current.play().catch(() => {})
+    }
+    const events = ["pointerdown", "keydown", "touchstart"] as const
+    events.forEach((e) => document.addEventListener(e, kick, { once: true }))
+    return () => events.forEach((e) => document.removeEventListener(e, kick))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
