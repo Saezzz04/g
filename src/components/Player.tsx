@@ -36,6 +36,12 @@ const slug = (s: string) =>
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "")
 
+/** `?t=<n>`: enlace compartible con la posición en la cola, sin delatar el título. */
+const trackParam = () => {
+  const n = Number(new URLSearchParams(window.location.search).get("t"))
+  return Number.isInteger(n) && n >= 1 ? n - 1 : -1
+}
+
 /** El archivo local manda sobre YouTube: mejor calidad y funciona sin red. */
 const isLocal = (t?: Track) => !!t?.src
 
@@ -67,7 +73,7 @@ export function Player({
   const ytRef = useRef<YTPlayer>(null)
 
   const [queue, setQueue] = useState<Track[]>(initialTracks)
-  const [index, setIndex] = useState(-1)
+  const [index, setIndex] = useState(() => (trackParam() < initialTracks.length ? trackParam() : -1))
   const [playing, setPlaying] = useState(false)
   const [shuffle, setShuffle] = useState(false)
   const [repeat, setRepeat] = useState(false)
@@ -91,6 +97,20 @@ export function Player({
 
   useEffect(() => onPlayingChange?.(playing), [playing, onPlayingChange])
   useEffect(() => onTrackChange?.(current), [current, onTrackChange])
+
+  // enlace compartido: intenta sonar ya; si el navegador bloquea el autoplay queda en pausa
+  useEffect(() => {
+    if (index >= 0) play(index)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // la URL sigue a la canción puesta, así se puede copiar y pasar
+  useEffect(() => {
+    const url = new URL(window.location.href)
+    if (index >= 0) url.searchParams.set("t", String(index + 1))
+    else url.searchParams.delete("t")
+    window.history.replaceState(null, "", url)
+  }, [index])
 
   useEffect(() => {
     if (audioRef.current) audioRef.current.volume = volume / 100
@@ -142,7 +162,9 @@ export function Player({
     if (isLocal(track)) {
       ytRef.current?.pauseVideo()
       audio.src = track.src!
-      audio.play().catch(() => setError(`Falta el archivo ${track.src}`))
+      audio.play().catch((e: DOMException) => {
+        if (e.name !== "NotAllowedError") setError(`Falta el archivo ${track.src}`)
+      })
       return
     }
     if (!track.youtubeId) return setError("Esta canción no tiene fuente")
