@@ -264,6 +264,17 @@ export const tracks: Track[] = [
     src: asset("music/ma-jolie.m4a"),
     duration: 234,
   },
+  {
+    id: "toto-et-ninetta",
+    title: "Toto et Ninetta",
+    artist: "JuL",
+    art: "🩵",
+    cover: asset("art/toto-et-ninetta.jpg"),
+    accent: "#2f8fd6", // azul cielo
+    youtubeId: "KAaLQhAwaIw",
+    src: asset("music/toto-et-ninetta.m4a"),
+    duration: 208,
+  },
 ]
 
 export function formatTime(s: number) {
