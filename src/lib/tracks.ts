@@ -233,7 +233,7 @@ export const tracks: Track[] = [
   },
   {
     id: "querer-querernos",
-    title: "Querer Querernos (Acústica)",
+    title: "Querer Querernos",
     artist: "Canserbero",
     art: "🤎",
     cover: asset("art/querer-querernos.jpg"),
@@ -244,7 +244,7 @@ export const tracks: Track[] = [
   },
   {
     id: "infierno-de-tu-gloria",
-    title: "El Infierno de Tu Gloria (Remix)",
+    title: "El Infierno de Tu Gloria",
     artist: "Kaydy Cain ft. Marko Italia",
     art: "❤️‍🔥",
     cover: asset("art/infierno-de-tu-gloria.jpg"),
@@ -252,6 +252,17 @@ export const tracks: Track[] = [
     youtubeId: "sFTyHBYC16w",
     src: asset("music/infierno-de-tu-gloria.m4a"),
     duration: 185,
+  },
+  {
+    id: "ma-jolie",
+    title: "Ma Jolie",
+    artist: "JuL",
+    art: "💙",
+    cover: asset("art/ma-jolie.jpg"),
+    accent: "#2f4fd6", // azul marino
+    youtubeId: "R6QF54ZjOfs",
+    src: asset("music/ma-jolie.m4a"),
+    duration: 234,
   },
 ]
 
