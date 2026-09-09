@@ -198,6 +198,17 @@ export const tracks: Track[] = [
     src: asset("music/celine.m4a"),
     duration: 174,
   },
+  {
+    id: "reproches",
+    title: "Reproches",
+    artist: "Ayax y Prok",
+    art: "🩶",
+    cover: asset("art/reproches.jpg"),
+    accent: "#6f7c8a", // pizarra
+    youtubeId: "tCe7VFfrh6E",
+    src: asset("music/reproches.m4a"),
+    duration: 274,
+  },
 ]
 
 export function formatTime(s: number) {
