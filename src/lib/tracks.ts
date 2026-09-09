@@ -242,6 +242,17 @@ export const tracks: Track[] = [
     src: asset("music/querer-querernos.m4a"),
     duration: 239,
   },
+  {
+    id: "infierno-de-tu-gloria",
+    title: "El Infierno de Tu Gloria (Remix)",
+    artist: "Kaydy Cain ft. Marko Italia",
+    art: "❤️‍🔥",
+    cover: asset("art/infierno-de-tu-gloria.jpg"),
+    accent: "#ff4d2f", // brasa
+    youtubeId: "sFTyHBYC16w",
+    src: asset("music/infierno-de-tu-gloria.m4a"),
+    duration: 185,
+  },
 ]
 
 export function formatTime(s: number) {
