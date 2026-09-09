@@ -209,6 +209,17 @@ export const tracks: Track[] = [
     src: asset("music/reproches.m4a"),
     duration: 274,
   },
+  {
+    id: "flow-2000",
+    title: "Flow 2000 (Remix)",
+    artist: "Bad Gyal, Beny Jr",
+    art: "💖",
+    cover: asset("art/flow-2000.jpg"),
+    accent: "#ff5ac8", // fucsia
+    youtubeId: "HHI7p558YLs",
+    src: asset("music/flow-2000.m4a"),
+    duration: 175,
+  },
 ]
 
 export function formatTime(s: number) {
