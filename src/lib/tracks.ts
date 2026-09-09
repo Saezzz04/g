@@ -187,6 +187,17 @@ export const tracks: Track[] = [
     src: asset("music/bandido-remix.m4a"),
     duration: 236,
   },
+  {
+    id: "celine",
+    title: "Celine",
+    artist: "Kidd Keo ft. Ghost Killer Track",
+    art: "🩶",
+    cover: asset("art/celine.jpg"),
+    accent: "#5a3fd6", // índigo
+    youtubeId: "5M2tSEQsnN4",
+    src: asset("music/celine.m4a"),
+    duration: 174,
+  },
 ]
 
 export function formatTime(s: number) {
