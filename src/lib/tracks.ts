@@ -220,6 +220,17 @@ export const tracks: Track[] = [
     src: asset("music/flow-2000.m4a"),
     duration: 175,
   },
+  {
+    id: "a-mi",
+    title: "A MÍ",
+    artist: "Rels B",
+    art: "🤍",
+    cover: asset("art/a-mi.jpg"),
+    accent: "#2fd6c4", // turquesa
+    youtubeId: "Q4Js9OEODHM",
+    src: asset("music/a-mi.m4a"),
+    duration: 233,
+  },
 ]
 
 export function formatTime(s: number) {
