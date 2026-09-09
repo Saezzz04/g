@@ -231,6 +231,17 @@ export const tracks: Track[] = [
     src: asset("music/a-mi.m4a"),
     duration: 233,
   },
+  {
+    id: "querer-querernos",
+    title: "Querer Querernos (Acústica)",
+    artist: "Canserbero",
+    art: "🤎",
+    cover: asset("art/querer-querernos.jpg"),
+    accent: "#c46a2f", // cobre
+    youtubeId: "8cKvvmPwgP4",
+    src: asset("music/querer-querernos.m4a"),
+    duration: 239,
+  },
 ]
 
 export function formatTime(s: number) {
