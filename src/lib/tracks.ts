@@ -275,6 +275,17 @@ export const tracks: Track[] = [
     src: asset("music/toto-et-ninetta.m4a"),
     duration: 208,
   },
+  {
+    id: "tu-aroma",
+    title: "Tu Aroma",
+    artist: "Yung Beef ft. Kaydy Cain",
+    art: "💜",
+    cover: asset("art/tu-aroma.jpg"),
+    accent: "#a02fd6", // púrpura
+    youtubeId: "hUBXd7kn5pc",
+    src: asset("music/tu-aroma.m4a"),
+    duration: 133,
+  },
 ]
 
 export function formatTime(s: number) {
