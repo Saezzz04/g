@@ -286,6 +286,50 @@ export const tracks: Track[] = [
     src: asset("music/tu-aroma.m4a"),
     duration: 133,
   },
+  {
+    id: "amor-a-quemarropa",
+    title: "Amor a Quemarropa",
+    artist: "Yung Beef",
+    art: "❤️",
+    cover: asset("art/amor-a-quemarropa.jpg"),
+    accent: "#d62f3f", // granate
+    youtubeId: "PZ82xwVRdsU",
+    src: asset("music/amor-a-quemarropa.m4a"),
+    duration: 197,
+  },
+  {
+    id: "mi-velero",
+    title: "Mi Velero",
+    artist: "KINKY BWOY",
+    art: "🩵",
+    cover: asset("art/mi-velero.jpg"),
+    accent: "#2fb6d6", // agua marina
+    youtubeId: "_Nd2OWrt2NE",
+    src: asset("music/mi-velero.m4a"),
+    duration: 232,
+  },
+  {
+    id: "welcome-nikone",
+    title: "Welcome",
+    artist: "Nikone",
+    art: "🖤",
+    cover: asset("art/welcome-nikone.jpg"),
+    accent: "#7a8a2f", // oliva
+    youtubeId: "GRpbs0m2d0A",
+    src: asset("music/welcome-nikone.m4a"),
+    duration: 150,
+  },
+  {
+    id: "pal-pulmon",
+    title: "Pal Pulmón (a capela)",
+    artist: "Nikone",
+    art: "🤍",
+    cover: asset("art/pal-pulmon.jpg"),
+    accent: "#8a8f96", // humo
+    youtubeId: "jHhlGLB3JSc",
+    src: asset("music/pal-pulmon.m4a"),
+    duration: 144,
+  },
 ]
 
 export function formatTime(s: number) {
