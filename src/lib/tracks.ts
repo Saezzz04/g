@@ -330,6 +330,50 @@ export const tracks: Track[] = [
     src: asset("music/pal-pulmon.m4a"),
     duration: 144,
   },
+  {
+    id: "manos-rotas",
+    title: "Manos Rotas",
+    artist: "DELLAFUENTE, Morad",
+    art: "🩶",
+    cover: asset("art/manos-rotas.jpg"),
+    accent: "#96a3b0", // acero
+    youtubeId: "wgOjjwg74jQ",
+    src: asset("music/manos-rotas.m4a"),
+    duration: 169,
+  },
+  {
+    id: "flores",
+    title: "Flores",
+    artist: "Pepe y Vizio, DELLAFUENTE",
+    art: "🌸",
+    cover: asset("art/flores.jpg"),
+    accent: "#ff8ab5", // rosa pálido
+    youtubeId: "6vNwmrh0EbU",
+    src: asset("music/flores.m4a"),
+    duration: 170,
+  },
+  {
+    id: "besos",
+    title: "Besos",
+    artist: "BandoBoyz ft. Swaggglock, Kidd Keo, Neelo",
+    art: "💋",
+    cover: asset("art/besos.jpg"),
+    accent: "#e02f4f", // rojo beso
+    youtubeId: "g1DTXlj4IeI",
+    src: asset("music/besos.m4a"),
+    duration: 173,
+  },
+  {
+    id: "veneno",
+    title: "Veneno",
+    artist: "Delaossa",
+    art: "💚",
+    cover: asset("art/veneno.jpg"),
+    accent: "#4fd62f", // verde veneno
+    youtubeId: "OXP2N2HAkbA",
+    src: asset("music/veneno.m4a"),
+    duration: 259,
+  },
 ]
 
 export function formatTime(s: number) {
