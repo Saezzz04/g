@@ -374,6 +374,39 @@ export const tracks: Track[] = [
     src: asset("music/veneno.m4a"),
     duration: 259,
   },
+  {
+    id: "ojitos-de-gata",
+    title: "Ojitos de Gata",
+    artist: "JM15",
+    art: "🐱",
+    cover: asset("art/ojitos-de-gata.jpg"),
+    accent: "#d6a02f", // miel
+    youtubeId: "1XIgPodO4RI",
+    src: asset("music/ojitos-de-gata.m4a"),
+    duration: 195,
+  },
+  {
+    id: "si-manana-me-muero",
+    title: "Si Mañana Me Muero",
+    artist: "Yung Beef ft. Pablo Chill-E, Julianno Sosa, Drago200, Harry Nach, Uzii Gaang, Khaled",
+    art: "🖤",
+    cover: asset("art/si-manana-me-muero.jpg"),
+    accent: "#5a5f66", // grafito
+    youtubeId: "guWc8MTAF5U",
+    src: asset("music/si-manana-me-muero.m4a"),
+    duration: 444,
+  },
+  {
+    id: "13-18",
+    title: "13/18",
+    artist: "DELLAFUENTE",
+    art: "💙",
+    cover: asset("art/13-18.jpg"),
+    accent: "#2f6fd6", // cobalto
+    youtubeId: "oPSqseuhJ6c",
+    src: asset("music/13-18.m4a"),
+    duration: 213,
+  },
 ]
 
 export function formatTime(s: number) {
