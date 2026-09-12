@@ -407,6 +407,72 @@ export const tracks: Track[] = [
     src: asset("music/13-18.m4a"),
     duration: 213,
   },
+  {
+    id: "dime-cuanto",
+    title: "Dime Cuánto",
+    artist: "HARD GZ, Delaossa",
+    art: "❤️",
+    cover: asset("art/dime-cuanto.jpg"),
+    accent: "#d62f6f", // frambuesa
+    youtubeId: "EvcE3gksPuI",
+    src: asset("music/dime-cuanto.m4a"),
+    duration: 259,
+  },
+  {
+    id: "shars-2020",
+    title: "Shars 2020",
+    artist: "Al Safir",
+    art: "🤍",
+    cover: asset("art/shars-2020.jpg"),
+    accent: "#b0b8c1", // plata
+    youtubeId: "QKb8YLpaVD8",
+    src: asset("music/shars-2020.m4a"),
+    duration: 185,
+  },
+  {
+    id: "consentia",
+    title: "Consentía",
+    artist: "DELLAFUENTE",
+    art: "💛",
+    cover: asset("art/consentia.jpg"),
+    accent: "#d6c02f", // oro viejo
+    youtubeId: "GxczN_ziDGU",
+    src: asset("music/consentia.m4a"),
+    duration: 201,
+  },
+  {
+    id: "gold-diggers",
+    title: "Gold Diggers",
+    artist: "Natos y Waor ft. HARD GZ",
+    art: "🖤",
+    cover: asset("art/gold-diggers.jpg"),
+    accent: "#8a6f2f", // bronce
+    youtubeId: "cn0w8I5aLzc",
+    src: asset("music/gold-diggers.m4a"),
+    duration: 216,
+  },
+  {
+    id: "shars-2014",
+    title: "Shars 2014",
+    artist: "Al Safir",
+    art: "🩶",
+    cover: asset("art/shars-2014.jpg"),
+    accent: "#7f8c99", // pizarra clara
+    youtubeId: "wB3zeBdet4M",
+    src: asset("music/shars-2014.m4a"),
+    duration: 199,
+  },
+  {
+    id: "shars-2019",
+    title: "Shars 2019",
+    artist: "Al Safir",
+    art: "🤎",
+    cover: asset("art/shars-2019.jpg"),
+    accent: "#8a6a56", // taupe
+    youtubeId: "oNandc5t1c0",
+    src: asset("music/shars-2019.m4a"),
+    duration: 176,
+  },
 ]
 
 export function formatTime(s: number) {
