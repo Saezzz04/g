@@ -473,6 +473,17 @@ export const tracks: Track[] = [
     src: asset("music/shars-2019.m4a"),
     duration: 176,
   },
+  {
+    id: "tu-y-yo",
+    title: "Tú y Yo",
+    artist: "Cano ft. Los Del Control",
+    art: "🤍",
+    cover: asset("art/tu-y-yo.jpg"),
+    accent: "#e6dccf", // marfil
+    youtubeId: "QfGIXldGfgA",
+    src: asset("music/tu-y-yo.m4a"),
+    duration: 179,
+  },
 ]
 
 export function formatTime(s: number) {
