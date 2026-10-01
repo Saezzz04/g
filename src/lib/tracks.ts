@@ -539,6 +539,17 @@ export const tracks: Track[] = [
     src: asset("music/date-tu-guille.m4a"),
     duration: 312,
   },
+  {
+    id: "dvd-ting",
+    title: "DVD Ting",
+    artist: "Beny Jr, El Guincho",
+    art: "💿",
+    cover: asset("art/dvd-ting.jpg"),
+    accent: "#2fd6d6", // cian disco
+    youtubeId: "vWSOahs3vmw",
+    src: asset("music/dvd-ting.m4a"),
+    duration: 144,
+  },
 ]
 
 export function formatTime(s: number) {
