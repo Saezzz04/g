@@ -561,6 +561,17 @@ export const tracks: Track[] = [
     src: asset("music/que-dira.m4a"),
     duration: 291,
   },
+  {
+    id: "metallica",
+    title: "Metallica",
+    artist: "Yung Beef",
+    art: "🖤",
+    cover: asset("art/metallica.jpg"),
+    accent: "#4f5a66", // acero oscuro
+    youtubeId: "gf2z_UJ8Zhw",
+    src: asset("music/metallica.m4a"),
+    duration: 225,
+  },
 ]
 
 export function formatTime(s: number) {
