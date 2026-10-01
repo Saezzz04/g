@@ -550,6 +550,17 @@ export const tracks: Track[] = [
     src: asset("music/dvd-ting.m4a"),
     duration: 144,
   },
+  {
+    id: "que-dira",
+    title: "Qué Dirá?",
+    artist: "Morad ft. Beny Jr",
+    art: "🧡",
+    cover: asset("art/que-dira.jpg"),
+    accent: "#e0902f", // ámbar quemado
+    youtubeId: "sPM9Djf0JO8",
+    src: asset("music/que-dira.m4a"),
+    duration: 291,
+  },
 ]
 
 export function formatTime(s: number) {
