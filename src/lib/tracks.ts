@@ -484,6 +484,61 @@ export const tracks: Track[] = [
     src: asset("music/tu-y-yo.m4a"),
     duration: 179,
   },
+  {
+    id: "suerte",
+    title: "Suerte",
+    artist: "Beny Jr",
+    art: "🍀",
+    cover: asset("art/suerte.jpg"),
+    accent: "#2fd67a", // trébol
+    youtubeId: "_VYBxEIYZ1o",
+    src: asset("music/suerte.m4a"),
+    duration: 120,
+  },
+  {
+    id: "34-amor-y-mafia",
+    title: "34 Amor y Mafia",
+    artist: "JC Reyes ft. Camin",
+    art: "🖤",
+    cover: asset("art/34-amor-y-mafia.jpg"),
+    accent: "#a32f2f", // vino
+    youtubeId: "IQhQPt96_yA",
+    src: asset("music/34-amor-y-mafia.m4a"),
+    duration: 209,
+  },
+  {
+    id: "empire-state-of-mind",
+    title: "Empire State of Mind",
+    artist: "JAY-Z ft. Alicia Keys",
+    art: "🗽",
+    cover: asset("art/empire-state-of-mind.jpg"),
+    accent: "#d6952f", // ámbar NY
+    youtubeId: "vk6014HuxcE",
+    src: asset("music/empire-state-of-mind.m4a"),
+    duration: 282,
+  },
+  {
+    id: "trap-queen",
+    title: "Trap Queen",
+    artist: "Fetty Wap",
+    art: "👑",
+    cover: asset("art/trap-queen.jpg"),
+    accent: "#c92fd6", // magenta corona
+    youtubeId: "i_kF4zLNKio",
+    src: asset("music/trap-queen.m4a"),
+    duration: 244,
+  },
+  {
+    id: "date-tu-guille",
+    title: "Date Tu Guille",
+    artist: "Milly, Farruko, Myke Towers, Lary Over, Rauw Alejandro, Sharo Towers",
+    art: "🔥",
+    cover: asset("art/date-tu-guille.jpg"),
+    accent: "#ff6a2f", // naranja fuego
+    youtubeId: "7cBJJv2HDpc",
+    src: asset("music/date-tu-guille.m4a"),
+    duration: 312,
+  },
 ]
 
 export function formatTime(s: number) {
