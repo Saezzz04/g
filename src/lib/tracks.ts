@@ -572,6 +572,17 @@ export const tracks: Track[] = [
     src: asset("music/metallica.m4a"),
     duration: 225,
   },
+  {
+    id: "ya-no-te-veo",
+    title: "Ya No Te Veo",
+    artist: "DELLAFUENTE, Novedades Carminha",
+    art: "💜",
+    cover: asset("art/ya-no-te-veo.jpg"),
+    accent: "#8f5ad6", // lila
+    youtubeId: "DBExn39Hvzc",
+    src: asset("music/ya-no-te-veo.m4a"),
+    duration: 201,
+  },
 ]
 
 export function formatTime(s: number) {
