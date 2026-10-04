@@ -583,6 +583,17 @@ export const tracks: Track[] = [
     src: asset("music/ya-no-te-veo.m4a"),
     duration: 201,
   },
+  {
+    id: "te-como-la-cara",
+    title: "Te Como la Cara",
+    artist: "DELLAFUENTE, Maka",
+    art: "💋",
+    cover: asset("art/te-como-la-cara.jpg"),
+    accent: "#ff2f9e", // rosa chicle
+    youtubeId: "XWfkw_zOnhA",
+    src: asset("music/te-como-la-cara.m4a"),
+    duration: 199,
+  },
 ]
 
 export function formatTime(s: number) {
