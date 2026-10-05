@@ -682,6 +682,17 @@ export const tracks: Track[] = [
     src: asset("music/la-novia-del-dealer.m4a"),
     duration: 220,
   },
+  {
+    id: "sigue",
+    title: "Sigue",
+    artist: "Beny Jr ft. Morad",
+    art: "💚",
+    cover: asset("art/sigue.jpg"),
+    accent: "#2f9e5a", // verde bosque
+    youtubeId: "jH6pCB61Bzk",
+    src: asset("music/sigue.m4a"),
+    duration: 211,
+  },
 ]
 
 export function formatTime(s: number) {
