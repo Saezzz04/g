@@ -660,6 +660,17 @@ export const tracks: Track[] = [
     src: asset("music/tenerte.m4a"),
     duration: 237,
   },
+  {
+    id: "cuenta-conmigo",
+    title: "Cuenta Conmigo",
+    artist: "Cruzzi",
+    art: "🤍",
+    cover: asset("art/cuenta-conmigo.jpg"),
+    accent: "#2fb0a0", // verde azulado
+    youtubeId: "sOFVz1j_wY4",
+    src: asset("music/cuenta-conmigo.m4a"),
+    duration: 210,
+  },
 ]
 
 export function formatTime(s: number) {
