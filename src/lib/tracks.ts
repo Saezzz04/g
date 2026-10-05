@@ -671,6 +671,17 @@ export const tracks: Track[] = [
     src: asset("music/cuenta-conmigo.m4a"),
     duration: 210,
   },
+  {
+    id: "la-novia-del-dealer",
+    title: "La Novia del Dealer",
+    artist: "Kaydy Cain, AC3",
+    art: "🖤",
+    cover: asset("art/la-novia-del-dealer.jpg"),
+    accent: "#7a2fd6", // violeta oscuro
+    youtubeId: "Q8kYvWqAaUI",
+    src: asset("music/la-novia-del-dealer.m4a"),
+    duration: 220,
+  },
 ]
 
 export function formatTime(s: number) {
