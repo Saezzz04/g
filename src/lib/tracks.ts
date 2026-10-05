@@ -594,6 +594,72 @@ export const tracks: Track[] = [
     src: asset("music/te-como-la-cara.m4a"),
     duration: 199,
   },
+  {
+    id: "rumanita",
+    title: "Rumanita",
+    artist: "Jarfaiter",
+    art: "🖤",
+    cover: asset("art/rumanita.jpg"),
+    accent: "#9e2f4f", // burdeos
+    youtubeId: "qSmyIoiemi0",
+    src: asset("music/rumanita.m4a"),
+    duration: 242,
+  },
+  {
+    id: "hijos-de-la-ruina",
+    title: "Hijos de la Ruina",
+    artist: "Natos, Waor y Cool",
+    art: "🩶",
+    cover: asset("art/hijos-de-la-ruina.jpg"),
+    accent: "#6b7280", // cemento
+    youtubeId: "6GDTnNc40xo",
+    src: asset("music/hijos-de-la-ruina.m4a"),
+    duration: 195,
+  },
+  {
+    id: "no-me-olvides",
+    title: "No Me Olvides",
+    artist: "La Mafia del Amor",
+    art: "💔",
+    cover: asset("art/no-me-olvides.jpg"),
+    accent: "#d62f8a", // fucsia oscuro
+    youtubeId: "zPXBi527Btg",
+    src: asset("music/no-me-olvides.m4a"),
+    duration: 187,
+  },
+  {
+    id: "habiba",
+    title: "Habiba",
+    artist: "Cano",
+    art: "🧡",
+    cover: asset("art/habiba.jpg"),
+    accent: "#e07a2f", // terracota
+    youtubeId: "EAGC4Zxny7U",
+    src: asset("music/habiba.m4a"),
+    duration: 182,
+  },
+  {
+    id: "guapadecara",
+    title: "GuapaDeCara",
+    artist: "RVFV, Cano",
+    art: "💗",
+    cover: asset("art/guapadecara.jpg"),
+    accent: "#ff4f8f", // rosa fuerte
+    youtubeId: "5uvvlUNKKLc",
+    src: asset("music/guapadecara.m4a"),
+    duration: 222,
+  },
+  {
+    id: "tenerte",
+    title: "Tenerte",
+    artist: "Cano",
+    art: "💙",
+    cover: asset("art/tenerte.jpg"),
+    accent: "#3f7fd6", // azul suave
+    youtubeId: "eZJM_KWjUr8",
+    src: asset("music/tenerte.m4a"),
+    duration: 237,
+  },
 ]
 
 export function formatTime(s: number) {
